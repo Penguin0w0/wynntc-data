@@ -1,0 +1,385 @@
+{
+  "_說明": "WynnTC 繁體中文字典。entries 是完全比對(比對前會自動去除色碼、圖示字元並修剪空白);patterns 是正規表達式規則,$1~$9 帶入擷取群組,{lookup:$1} 會先拿群組內容查 entries。以下內容為示範起步字典,實際字串請以 config/wynntc/untranslated.jsonl 收集到的為準,翻譯後貼進 entries 即可,遊戲內輸入 /wynntc reload 立即生效。",
+
+  "entries": {
+    "Welcome to Wynncraft!": "歡迎來到 Wynncraft!",
+    "Loading Resource Pack...": "正在載入資源包……",
+    "Press SHIFT to continue": "按 SHIFT 繼續",
+    "Press SNEAK to continue": "按下潛行鍵繼續",
+
+    "Character Info": "角色資訊",
+    "Edit Nickname": "編輯暱稱",
+    "Customize Character": "自訂角色",
+    "Change Scene": "更換場景",
+    "Edit Icon": "編輯圖示",
+    "Set As Favourite": "設為最愛",
+    "Unset As Favourite": "取消最愛",
+    "Reskin Class": "更換職業外觀",
+    "Current:": "目前:",
+    "Click to Update": "點擊更新",
+    "Shift-Click to Reset": "Shift+點擊重設",
+    "Left-Click to play": "左鍵開始遊玩",
+    "Right-Click to switch": "右鍵切換角色",
+    "Trade Market": "交易市場",
+    "Combat Experience": "戰鬥經驗",
+    "Profession Experience": "專業經驗",
+    "Profession Speed": "專業速度",
+    "Loot": "戰利品",
+    "Area Discovered": "發現新區域",
+    "Level Up!": "升級!",
+    "Quest Started": "任務開始",
+    "Quest Completed!": "任務完成!",
+    "Quest Book Updated": "任務書已更新",
+    "You don't have enough mana to cast that spell!": "法力不足,無法施放這個法術!",
+
+    "Archer": "弓箭手",
+    "Warrior": "戰士",
+    "Mage": "法師",
+    "Assassin": "刺客",
+    "Shaman": "薩滿",
+    "Hunter": "獵人",
+    "Knight": "騎士",
+    "Dark Wizard": "黑巫師",
+    "Ninja": "忍者",
+    "Skyseer": "天視者",
+
+    "Strength": "力量",
+    "Dexterity": "敏捷",
+    "Intelligence": "智力",
+    "Defence": "防禦",
+    "Agility": "靈巧",
+
+    "Earth": "土",
+    "Thunder": "雷",
+    "Water": "水",
+    "Fire": "火",
+    "Air": "風",
+
+    "Health": "生命",
+    "Mana": "法力",
+    "Health Regen": "生命回復",
+    "Mana Regen": "法力回復",
+    "Life Steal": "生命竊取",
+    "Mana Steal": "法力竊取",
+    "Walk Speed": "移動速度",
+    "Main Attack Damage": "普攻傷害",
+    "Spell Damage": "法術傷害",
+    "XP Bonus": "經驗加成",
+    "Loot Bonus": "戰利品加成",
+    "Reflection": "反射",
+    "Thorns": "荊棘",
+    "Exploding": "爆炸",
+    "Poison": "劇毒",
+    "Stealing": "偷竊",
+    "Powder Slots": "粉末插槽",
+
+    "Effects:": "效果:",
+    "Effect:": "效果:",
+    "Distance:": "距離:",
+    "Length:": "長度:",
+    "Difficulty:": "難度:",
+    "Rewards:": "獎勵:",
+    "Near": "近",
+    "Far": "遠",
+    "Medium": "中等",
+    "Short": "短",
+    "Long": "長",
+    "Easy": "簡單",
+    "Hard": "困難",
+    "Storyline": "主線",
+    "Currently tracking": "追蹤中",
+    "Click To Track": "點擊追蹤",
+    "Click To Untrack": "點擊取消追蹤",
+    "Tracked Quest:": "追蹤中的任務:",
+    "Cooldown:": "冷卻時間:",
+    "Duration:": "持續時間:",
+    "Area of Effect:": "影響範圍:",
+    "Total Damage:": "總傷害:",
+    "Damage:": "傷害:",
+    "Range:": "範圍:",
+    "Mana Cost:": "法力消耗:",
+    "Ability Points:": "能力點:",
+    "Required Ability:": "所需能力:",
+    "Slowness": "緩速",
+    "Main Attack": "普攻",
+    "your DPS": "你的 DPS",
+
+    "Super Slow Attack Speed": "攻擊速度:超慢",
+    "Very Slow Attack Speed": "攻擊速度:很慢",
+    "Slow Attack Speed": "攻擊速度:慢",
+    "Normal Attack Speed": "攻擊速度:普通",
+    "Fast Attack Speed": "攻擊速度:快",
+    "Very Fast Attack Speed": "攻擊速度:很快",
+    "Super Fast Attack Speed": "攻擊速度:超快",
+    "items": "項物品",
+    "item": "物品",
+    "Sold": "賣出",
+    "Bought": "買入",
+    "Emeralds": "綠寶石",
+    "Emerald Blocks": "綠寶石磚",
+    "Liquid Emerald": "液態綠寶石",
+    "Loot Chest": "戰利品寶箱",
+    "Chest": "寶箱",
+    "Boost": "加成",
+    "Active": "生效中",
+    "Objective": "目標",
+    "Objectives": "目標",
+    "Daily Objective": "每日目標",
+    "Weekly Objective": "每週目標",
+    "Win Dungeons": "地城勝場",
+    "Slay": "擊殺",
+    "Gather": "採集",
+    "Complete": "完成",
+    "Quests Completed": "已完成任務",
+    "Discoveries Found": "尋找發現",
+    "Cave Completed": "洞穴已完成",
+    "Experience Points": "經驗值",
+    "Rewards": "獎勵",
+    "Tracked": "追蹤中",
+    "Profession XP": "專業經驗",
+    "Combat XP": "戰鬥經驗",
+    "Gathering XP": "採集經驗",
+    "XP": "經驗",
+    "Loot Bonus": "戰利品加成",
+    "Emerald Rate": "綠寶石掉落率",
+    "Discoveries": "發現點",
+    "Territory": "領地",
+    "Guild": "公會",
+    "War": "戰爭",
+    "Raid": "團隊副本",
+    "Dungeon": "地城",
+    "Lootrun": "掠奪副本",
+    "Server": "伺服器",
+    "Profession Speed": "專業速度",
+    "Party": "隊伍",
+    "Friends": "好友",
+    "Soul Points": "靈魂點",
+    "Class": "職業",
+    "Skill Points": "技能點",
+    "Normal": "普通",
+    "Unique": "獨特",
+    "Rare": "稀有",
+    "Legendary": "傳說",
+    "Fabled": "傳奇",
+    "Mythic": "神話",
+    "Set": "套裝",
+    "Crafted": "製作品",
+    "Bow": "弓",
+    "Wand": "魔杖",
+    "Spear": "長矛",
+    "Dagger": "匕首",
+    "Relik": "聖器",
+    "Helmet": "頭盔",
+    "Chestplate": "胸甲",
+    "Leggings": "護腿",
+    "Boots": "靴子",
+    "Ring": "戒指",
+    "Bracelet": "手鐲",
+    "Necklace": "項鍊",
+    "Ingredient": "材料",
+    "Material": "素材",
+    "Potion": "藥水",
+    "Scroll": "卷軸",
+    "Powder": "粉末",
+    "Emerald": "綠寶石",
+    "Tome": "典籍",
+    "Charm": "護符",
+    "Class Type": "職業類型",
+    "Combat Level": "戰鬥等級",
+    "Requirements": "需求條件",
+    "Identifications": "屬性",
+    "Powder Special": "粉末特效",
+    "Set Bonus": "套裝加成",
+    "Durability": "耐久度",
+    "Untradable": "無法交易",
+    "Quest Item": "任務物品",
+    "Effective Damage": "有效傷害",
+    "Base Damage": "基礎傷害",
+    "Average DPS": "平均 DPS",
+    "Archer/Hunter": "弓箭手/獵人",
+    "Warrior/Knight": "戰士/騎士",
+    "Mage/Dark Wizard": "法師/黑巫師",
+    "Assassin/Ninja": "刺客/忍者",
+    "Shaman/Skyseer": "薩滿/天視者",
+    "Slow": "緩慢",
+    "Fast": "快速",
+    "Very Slow": "很慢",
+    "Very Fast": "很快",
+    "Super Slow": "超慢",
+    "Super Fast": "超快",
+    "Attack Speed": "攻擊速度",
+    "Raw Health": "生命值",
+    "Raw Damage": "傷害值",
+    "Neutral Damage": "無屬性傷害",
+    "Elemental Damage": "元素傷害",
+    "Earth Damage": "土屬性傷害",
+    "Thunder Damage": "雷屬性傷害",
+    "Water Damage": "水屬性傷害",
+    "Fire Damage": "火屬性傷害",
+    "Air Damage": "風屬性傷害",
+    "Earth Defence": "土屬性防禦",
+    "Thunder Defence": "雷屬性防禦",
+    "Water Defence": "水屬性防禦",
+    "Fire Defence": "火屬性防禦",
+    "Air Defence": "風屬性防禦",
+    "Elemental Defence": "元素防禦",
+    "Spell Damage": "法術傷害",
+    "Main Attack Damage": "普攻傷害",
+    "Sprint": "衝刺",
+    "Sprint Regen": "衝刺回復",
+    "Jump Height": "跳躍高度",
+    "Soul Point Regen": "靈魂點回復",
+    "Loot Quality": "戰利品品質",
+    "Gather XP Bonus": "採集經驗加成",
+    "Gather Speed": "採集速度",
+    "Casting Speed": "施法速度",
+    "Knockback": "擊退",
+    "Weaken Enemy": "削弱敵人",
+    "Slow Enemy": "減速敵人",
+    "Healing Efficiency": "治療效率",
+    "1st Spell Cost": "第一法術消耗",
+    "2nd Spell Cost": "第二法術消耗",
+    "3rd Spell Cost": "第三法術消耗",
+    "4th Spell Cost": "第四法術消耗",
+    "Raw Spell Cost": "法術消耗",
+    "Mana Regen": "法力回復",
+    "Damage": "傷害",
+    "Defence": "防禦",
+    "Level": "等級",
+    "Tier": "階級"
+  },
+
+  "names": {
+    "_說明": "專有名詞譯名區:英文名稱保留原樣,譯名以全形括號附註,例如 Frenzy(狂亂)。收錄在此的優先於機翻附註。",
+    "Frenzy": "狂亂",
+    "Boltslinger Archetype": "連弩手系",
+    "Sharpshooter Archetype": "神射手系",
+    "Trapper Archetype": "陷阱師系"
+  },
+
+  "patterns": [
+    {
+      "match": "^You are now combat level ([0-9]+)!?$",
+      "replace": "你現在的戰鬥等級為 $1!"
+    },
+    {
+      "match": "^(.+) has thrown an? (.+) Bomb on (.+)$",
+      "replace": "$1 在 $3 使用了{lookup:$2}炸彈"
+    },
+    {
+      "match": "^(\\[!\\] )?Congratulations to (.+) for reaching combat level ([0-9]+)!$",
+      "replace": "$1恭喜 $2 戰鬥等級達到 $3 級!"
+    },
+    {
+      "match": "^Combat Lv\\. Min: ([0-9]+)$",
+      "replace": "戰鬥等級需求:$1"
+    },
+    {
+      "match": "^(Strength|Dexterity|Intelligence|Defence|Agility) Min: ([0-9]+)$",
+      "replace": "{lookup:$1}需求:$2"
+    },
+    {
+      "match": "^Class Req: (.+)$",
+      "replace": "職業需求:{lookup:$1}"
+    },
+    {
+      "match": "^Quest Req: (.+)$",
+      "replace": "前置任務:$1"
+    },
+    {
+      "match": "^Press (SHIFT|SNEAK) to continue$",
+      "replace": "按 SHIFT 繼續"
+    },
+    {
+      "match": "^Unassigned Skill Points: ([0-9]+)$",
+      "replace": "未分配技能點:$1"
+    },
+    {
+      "match": "^([0-9]+(?:\\.[0-9]+)?)s$",
+      "replace": "$1秒"
+    },
+    {
+      "match": "^([0-9]+(?:\\.[0-9]+)?) ?mins?$",
+      "replace": "$1分"
+    },
+    {
+      "match": "^([0-9]+(?:\\.[0-9]+)?) Blocks? \\(Circle-Shaped\\)$",
+      "replace": "$1 格(圓形)"
+    },
+    {
+      "match": "^\\(([0-9]+) Blocks?\\)$",
+      "replace": "($1 格)"
+    },
+    {
+      "match": "^(.*?)Unused Ability Points: ([0-9]+)$",
+      "replace": "$1未使用能力點:$2"
+    },
+    {
+      "match": "^(.+?) is now level ([0-9]+)!?$",
+      "replace": "$1 現在是 $2 級"
+    },
+    {
+      "match": "^(.+?) is now combat level ([0-9]+)!?$",
+      "replace": "$1 現在是戰鬥等級 $2"
+    },
+    {
+      "match": "^One more level to reach (.+)$",
+      "replace": "再升一級即可達到 $1"
+    },
+    {
+      "match": "^Sold ([0-9,]+) items? for (.+)$",
+      "replace": "賣出 $1 項,獲得 $2"
+    },
+    {
+      "match": "^You have ([0-9]+) unused skill points?$",
+      "replace": "你有 $1 點未使用的技能點"
+    },
+    {
+      "match": "^You have ([0-9]+) unused ability points?$",
+      "replace": "你有 $1 點未使用的能力點"
+    },
+    {
+      "match": "^\\(([0-9]+)m ?([0-9]+)s\\)$",
+      "replace": "(剩 $1分$2秒)"
+    },
+    {
+      "match": "^\\(([0-9]+)s\\)$",
+      "replace": "(剩 $1秒)"
+    },
+    {
+      "match": "^\\(([0-9]+)m\\)$",
+      "replace": "(剩 $1分)"
+    },
+    {
+      "match": "^on ([A-Za-z]{2,3}[0-9]{1,3}) \\(([0-9]+)m ?([0-9]+)s\\)$",
+      "replace": "於 $1(剩 $2分$3秒)"
+    },
+    {
+      "match": "^on ([A-Za-z]{2,3}[0-9]{1,3}) \\((.+)\\)$",
+      "replace": "於 $1($2)"
+    },
+    {
+      "match": "^([0-9]+)m ?([0-9]+)s$",
+      "replace": "$1分$2秒"
+    },
+    {
+      "match": "^([0-9]+)m$",
+      "replace": "$1分"
+    },
+    {
+      "match": "^([A-Za-z][A-Za-z '/]*[A-Za-z]) ([+-][0-9].*)$",
+      "replace": "{lookup:$1} $2",
+      "requireLookup": true
+    },
+    {
+      "match": "^([A-Za-z][A-Za-z '/]*[A-Za-z]): ?([+-]?[0-9].*)$",
+      "replace": "{lookup:$1}:$2",
+      "requireLookup": true
+    },
+    {
+      "match": "^\\[([0-9]+)/([0-9]+)\\] ([^:]+): (.+)$",
+      "replace": "[$1/$2] $3:{lookup:$4}",
+      "requireLookup": true
+    }
+  ]
+}
